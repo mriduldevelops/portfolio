@@ -12,13 +12,13 @@ function About() {
         <p className='mt-10 text-2xl text-center'>I'm a Freelancer Front-end Developer with over 12 years of experience. I'm from London, UK. I code and create web elements for amazing people around the world. I like work with new people. New people are new experiences.</p>
         <div className='mt-10 flex gap-4 justify-center flex-wrap'>
           <div className='bg-[#f2f2f2] border-4 border-[#444444] px-4 py-2'>
-            <p className='text-xl'>Name: <span className='font-semibold'>Mridul Sharma</span></p>
+            <p className='text-lg md:text-xl'>Name: <span className='font-semibold'>Mridul Sharma</span></p>
           </div>
           <div className='bg-[#f2f2f2] border-4 border-[#444444] px-4 py-2'>
-            <p className='text-xl'>Email: <span className='font-semibold'>sharmamridul045@gmail.com</span></p>
+            <p className='text-lg md:text-xl'>Email: <span className='font-semibold'>sharmamridul045@gmail.com</span></p>
           </div>
           <div className='bg-[#f2f2f2] border-4 border-[#444444] px-4 py-2'>
-            <p className='text-xl'>Phone: <span className='font-semibold'>+917060753394</span></p>
+            <p className='text-lg md:text-xl'>Phone: <span className='font-semibold'>+917060753394</span></p>
           </div>
         </div>
         <div className='flex flex-col items-center mt-20 group'>

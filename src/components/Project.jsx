@@ -47,23 +47,23 @@ function Project() {
         <hr className='border-4 border-black mt-5 w-20' />
         <div className='mt-10 space-y-10'>
           {projects.map((project, index) => (
-            <div className={`flex gap-10 ${index % 2 == !0 ? "flex-row-reverse" : ""}`} key={index}>
-              <div className='w-1/3 aspect-square grid items-center overflow-hidden'>
+            <div className={`flex flex-col md:flex-row px-4 gap-10 ${index % 2 == !0 ? "md:flex-row-reverse" : ""}`} key={index}>
+              <div className=' md:w-1/3 aspect-square grid items-center overflow-hidden'>
                 <img src={project.img} alt="project image" className='w-auto ' />
               </div>
               <div className='flex items-center'>
                 <div className='space-y-5 w-full'>
                   <h5 className='text-3xl font-semibold font-serif tracking-wider underline decoration-custom'>{project.name}</h5>
                   <p className='text-lg'>{project.skills}</p>
-                  <div className='flex items-center gap-5 w-full'>
-                    <Link href={project.siteLink} className='w-60'>
+                  <div className='flex flex-col md:flex-row items-center gap-5 w-full'>
+                    <Link href={project.siteLink} className='w-full md:w-60'>
                       <button
                         className={`bg-custom w-full text-xl font-semibold py-3 hover:bg-black hover:text-white transition-colors duration-300`}
                       >
                         VISIT SITE
                       </button>
                     </Link>
-                    <Link href={project.codeLink} className='w-60'>
+                    <Link href={project.codeLink} className='w-full md:w-60'>
                       <button
                         className={`bg-custom w-full text-xl font-semibold py-3 hover:bg-black hover:text-white transition-colors duration-300`}
                       >

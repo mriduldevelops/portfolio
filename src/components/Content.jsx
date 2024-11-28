@@ -7,7 +7,7 @@ import Contact from './Contact'
 
 function Content() {
   return (
-    <div className='w-4/6 h-[200vh] absolute right-0'>
+    <div className='w-full lg:w-4/6 h-[200vh] absolute right-0'>
         <Hero/>
         <About/>
         <Skill/>

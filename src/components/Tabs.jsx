@@ -19,12 +19,14 @@ function Tabs() {
             {activeTab === 'EXPERIENCE' &&
                 <div className='mt-10 w-full'>
                     <div className='bg-[#f2f2f2] p-10'>
-                        <p className='text-lg font-semibold font-serif'>APPOPOLIES STUDIOS ( October,2023 - Today )</p>
+                        <p className='text-lg font-semibold font-serif'>APPOPOLIES STUDIOS </p>
+                        <span className='text-lg font-semibold font-serif'>( October,2023 - Today )</span>
                         <h3 className='text-3xl font-serif font-bold mt-2 mb-4'>Frontend Developer</h3>
                         <p className='text-2xl'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam illum repudiandae repellat fugiat tenetur nihil dolore itaque quod illo sunt.</p>
                     </div>
                     <div className='bg-[#f2f2f2] p-10 mt-10'>
-                        <p className='text-lg font-semibold font-serif'>INFOTRIXS ( September,2023- October,2023 )</p>
+                        <p className='text-lg font-semibold font-serif'>INFOTRIXS </p>
+                        <span className='text-lg font-semibold font-serif'>( September,2023- October,2023 )</span>
                         <h3 className='text-3xl font-serif font-bold mt-2 mb-4'>Frontend Developer Intern</h3>
                         <p className='text-2xl'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam illum repudiandae repellat fugiat tenetur nihil dolore itaque quod illo sunt.</p>
                     </div>
@@ -34,11 +36,11 @@ function Tabs() {
                 <div className='mt-10 w-full'>
                     <div className='bg-[#f2f2f2] p-10'>
                         <p className='text-lg font-semibold font-serif'>Dr. Bhim Rao Ambedkar University, Agra ( 2021 - 2024 )</p>
-                        <h3 className='text-3xl font-serif font-bold mt-2 mb-4'>Bacherlors of Science ( Computer Science )</h3>
+                        <h3 className='text-2xl md:text-3xl font-serif font-bold mt-2 mb-4'>Bacherlors of Science ( Computer Science )</h3>
                     </div>
                     <div className='bg-[#f2f2f2] p-10 mt-10'>
                         <p className='text-lg font-semibold font-serif'>Kanha Makhan Public School, Mathura ( 2017 - 2021 )</p>
-                        <h3 className='text-3xl font-serif font-bold mt-2 mb-4'>High School &amp; Intermediate</h3>
+                        <h3 className='text-2xl md:text-3xl font-serif font-bold mt-2 mb-4'>High School &amp; Intermediate</h3>
                     </div>
                 </div>
             }

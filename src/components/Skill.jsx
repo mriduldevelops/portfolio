@@ -12,7 +12,7 @@ function Skill() {
                     {skills.map((skill, index)=>(
                         <div className='border-4 border-black p-2' key={index}>
                         <div className='bg-custom p-2'>
-                            <p className='text-2xl font-serif font-semibold'>{skill}</p>
+                            <p className='ext-lg md:text-2xl font-serif font-semibold'>{skill}</p>
                         </div>
                     </div>
                     ))}
