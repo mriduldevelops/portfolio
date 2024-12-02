@@ -20,10 +20,10 @@ function Contact() {
 
         emailjs
             .send(
-                'service_fx8oc4c', // Replace with your EmailJS service ID
-                'template_z7vxzqf', // Replace with your EmailJS template ID
+                process.env.NEXT_PUBLIC_SERVICE_ID, // Replace with your EmailJS service ID
+                process.env.NEXT_PUBLIC_TEMPLATE_ID, // Replace with your EmailJS template ID
                 formData, // Pass the form data
-                'BRciqBM6r4W2W4dNJ' // Replace with your EmailJS user ID
+                process.env.NEXT_PUBLIC_USER_ID // Replace with your EmailJS user ID
             )
             .then(
                 (result) => {
