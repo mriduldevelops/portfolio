@@ -14,7 +14,7 @@ function Hero() {
             <div className='w-full md:w-2/3 px-4 md:pl-10 flex flex-col justify-center'>
                 <h2 className='text-4xl md:text-5xl font-semibold font-serif tracking-wider'>FRONTEND DEVELOPER</h2>
                 <hr className='border-4 border-black mt-3 md:mt-5 mb-7 w-1/3' />
-                <p className='text-2xl lg:w-3/4 pr-4 md:pr-0'>Founder of Frenify. Professional UI/UX designer and web developer based on London. Sometimes works as a freelancer.</p>
+                <p className='text-2xl lg:w-3/4 pr-4 md:pr-0'>Passionate about creating interactive, responsive, and visually appealing websites. Ready to bring your projects to life!</p>
                 <div className='w-full h-[600px] md:h-auto md:w-1/2 bg-white flex items-center justify-center md:hidden'>
                     <div className='relative flex items-center justify-center right-0'>
                         <div className='z-10 w-[400px] h-[300px] bg-custom'></div>

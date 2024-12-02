@@ -18,17 +18,17 @@ function Tabs() {
             </div>
             {activeTab === 'EXPERIENCE' &&
                 <div className='mt-10 w-full'>
-                    <div className='bg-[#f2f2f2] p-10'>
+                    <div className='bg-[#f2f2f2] p-4 md:p-10'>
                         <p className='text-lg font-semibold font-serif'>APPOPOLIES STUDIOS </p>
                         <span className='text-lg font-semibold font-serif'>( October,2023 - Today )</span>
                         <h3 className='text-3xl font-serif font-bold mt-2 mb-4'>Frontend Developer</h3>
-                        <p className='text-2xl'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam illum repudiandae repellat fugiat tenetur nihil dolore itaque quod illo sunt.</p>
+                        <p className='text-xl md:text-2xl'>As a frontend developer, I worked on building landing pages and the frontend for e-commerce websites using React.js and Next.js. I used CSS frameworks like Bootstrap and Tailwind to create clean, modern designs. I also handled Stripe integrations to set up smooth payment workflows and added interactive features like accordions, carousels, and filters to make the user experience more dynamic and engaging.</p>
                     </div>
-                    <div className='bg-[#f2f2f2] p-10 mt-10'>
+                    <div className='bg-[#f2f2f2] p-4 md:p-10 mt-10'>
                         <p className='text-lg font-semibold font-serif'>INFOTRIXS </p>
                         <span className='text-lg font-semibold font-serif'>( September,2023- October,2023 )</span>
                         <h3 className='text-3xl font-serif font-bold mt-2 mb-4'>Frontend Developer Intern</h3>
-                        <p className='text-2xl'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam illum repudiandae repellat fugiat tenetur nihil dolore itaque quod illo sunt.</p>
+                        <p className='text-xl md:text-2xl'>I worked on creating a React-based user interface for a team project, making sure it connected seamlessly with the backend. I used Tailwind CSS to design responsive and visually appealing UI elements that improved user experience. This role also gave me hands-on experience in working within a team, helping me understand the importance of collaboration and effective communication in a professional environment.</p>
                     </div>
                 </div>
             }

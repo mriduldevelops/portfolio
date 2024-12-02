@@ -9,7 +9,7 @@ function Menu() {
   }
 
   return (
-    <div className='h-screen w-2/6 fixed px-4 pt-10 jost hidden lg:block'>
+    <div className='h-screen w-2/6 fixed px-4 jost hidden lg:block'>
       <div className='px-8 border-r-4 border-zinc-800 h-full w-full flex flex-col justify-center gap-2'>
         <a href="#">
         <button
