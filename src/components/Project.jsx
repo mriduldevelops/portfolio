@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import React from 'react'
-
+import Image from 'next/image'
 const projects = [
   {
     img: "https://mriduldevelops.github.io/Mridul-Portfolio-Site/assets/urban-trendz-67627849.png",
@@ -49,7 +49,7 @@ function Project() {
           {projects.map((project, index) => (
             <div className={`flex flex-col md:flex-row px-4 gap-10 ${index % 2 == !0 ? "md:flex-row-reverse" : ""}`} key={index}>
               <div className=' md:w-1/3 aspect-square grid items-center overflow-hidden'>
-                <img src={project.img} alt="project image" className='w-auto ' />
+                <Image src={project.img} alt="project image" className='w-auto ' width={200} height={100} />
               </div>
               <div className='flex items-center'>
                 <div className='space-y-5 w-full'>
